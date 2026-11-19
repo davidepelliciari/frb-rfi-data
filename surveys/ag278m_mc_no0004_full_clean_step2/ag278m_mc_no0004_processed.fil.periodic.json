@@ -1,0 +1,1585 @@
+{
+  "input": "/data/PROC/GEM/NEWMAG_2/CLEAN_STEP1/ag278m04_EP260628C_SDmc/ag278m_mc_no0004_processed.fil",
+  "output": "/data/PROC/GEM/NEWMAG_2/CLEAN_STEP2/ag278m04_EP260628C_SDmc/ag278m_mc_no0004_processed.fil",
+  "duration_s": 1198.999568,
+  "config": {
+    "freqs": [
+      50.0
+    ],
+    "nbins": 64,
+    "segment": 10.0,
+    "clip": 4.0,
+    "search": false,
+    "search_width": 0.05,
+    "search_step": 0.0005,
+    "sub": 65536
+  },
+  "freq_min": 50.0,
+  "freq_max": 50.0,
+  "frac_var_removed_median": 0.0025448139748957543,
+  "frac_var_removed_max": 0.011373269500655203,
+  "samples_saturated": 0,
+  "segments": [
+    {
+      "t0": 0.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02061004564166069,
+          "template_rms_over_sigma_max": 0.24187622964382172
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0015296227253316363
+    },
+    {
+      "t0": 10.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021609362214803696,
+          "template_rms_over_sigma_max": 0.2396378070116043
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0018601915180105344
+    },
+    {
+      "t0": 20.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021001232787966728,
+          "template_rms_over_sigma_max": 0.2431332916021347
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0016306088233026816
+    },
+    {
+      "t0": 30.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.023066196590662003,
+          "template_rms_over_sigma_max": 0.24673178791999817
+        }
+      ],
+      "frac_var_removed_per_channel": 0.001932767498669885
+    },
+    {
+      "t0": 40.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021640080958604813,
+          "template_rms_over_sigma_max": 0.250779390335083
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0017343812079436693
+    },
+    {
+      "t0": 50.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022092394530773163,
+          "template_rms_over_sigma_max": 0.23576068878173828
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0017732069233995507
+    },
+    {
+      "t0": 60.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022224007174372673,
+          "template_rms_over_sigma_max": 0.22006797790527344
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0018291062454192097
+    },
+    {
+      "t0": 70.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.0223071426153183,
+          "template_rms_over_sigma_max": 0.23841919004917145
+        }
+      ],
+      "frac_var_removed_per_channel": 0.001818021560413552
+    },
+    {
+      "t0": 80.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02299194224178791,
+          "template_rms_over_sigma_max": 0.2518962621688843
+        }
+      ],
+      "frac_var_removed_per_channel": 0.001991831516532372
+    },
+    {
+      "t0": 90.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02316306158900261,
+          "template_rms_over_sigma_max": 0.24840055406093597
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0020130975167079734
+    },
+    {
+      "t0": 100.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.023361817002296448,
+          "template_rms_over_sigma_max": 0.26558130979537964
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002082933989052571
+    },
+    {
+      "t0": 110.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02417653426527977,
+          "template_rms_over_sigma_max": 0.2579822540283203
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022454826710678333
+    },
+    {
+      "t0": 120.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.024112187325954437,
+          "template_rms_over_sigma_max": 0.2601624131202698
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002248632210932189
+    },
+    {
+      "t0": 130.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.026322435587644577,
+          "template_rms_over_sigma_max": 0.26709726452827454
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00232592666882947
+    },
+    {
+      "t0": 140.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.024078287184238434,
+          "template_rms_over_sigma_max": 0.2511357069015503
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022453853002527557
+    },
+    {
+      "t0": 150.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.028331302106380463,
+          "template_rms_over_sigma_max": 0.2698971927165985
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0025964177645099173
+    },
+    {
+      "t0": 160.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02993806079030037,
+          "template_rms_over_sigma_max": 0.27194610238075256
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00278310047811281
+    },
+    {
+      "t0": 170.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03128364309668541,
+          "template_rms_over_sigma_max": 0.2881195545196533
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0031723913514936086
+    },
+    {
+      "t0": 180.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02972378581762314,
+          "template_rms_over_sigma_max": 0.290807843208313
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0033470836035991436
+    },
+    {
+      "t0": 190.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.028889797627925873,
+          "template_rms_over_sigma_max": 0.28214171528816223
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00290169203039381
+    },
+    {
+      "t0": 200.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02909884601831436,
+          "template_rms_over_sigma_max": 0.2722223997116089
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002583778457759256
+    },
+    {
+      "t0": 210.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02975456602871418,
+          "template_rms_over_sigma_max": 0.2681064009666443
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0025505975624140476
+    },
+    {
+      "t0": 220.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.030836354941129684,
+          "template_rms_over_sigma_max": 0.2619979679584503
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0026109635333235737
+    },
+    {
+      "t0": 230.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.035503171384334564,
+          "template_rms_over_sigma_max": 0.2757071852684021
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0031435157271100245
+    },
+    {
+      "t0": 240.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03834691271185875,
+          "template_rms_over_sigma_max": 0.3021833896636963
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0040037098454663855
+    },
+    {
+      "t0": 250.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.039614543318748474,
+          "template_rms_over_sigma_max": 0.3124811053276062
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0047666056067650064
+    },
+    {
+      "t0": 260.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.04082872346043587,
+          "template_rms_over_sigma_max": 0.3137747347354889
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0045184829781463876
+    },
+    {
+      "t0": 270.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03834794461727142,
+          "template_rms_over_sigma_max": 0.2582111656665802
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0033204248591984786
+    },
+    {
+      "t0": 280.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.036039311438798904,
+          "template_rms_over_sigma_max": 0.31110069155693054
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003790113474566481
+    },
+    {
+      "t0": 290.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.031612783670425415,
+          "template_rms_over_sigma_max": 0.329697847366333
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0035091288997710635
+    },
+    {
+      "t0": 300.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.029542550444602966,
+          "template_rms_over_sigma_max": 0.3226030766963959
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003165814369651354
+    },
+    {
+      "t0": 310.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02823994681239128,
+          "template_rms_over_sigma_max": 0.3460562229156494
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003059458374211621
+    },
+    {
+      "t0": 320.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.026859212666749954,
+          "template_rms_over_sigma_max": 0.32935860753059387
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002696916495857682
+    },
+    {
+      "t0": 330.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027165230363607407,
+          "template_rms_over_sigma_max": 0.3197927176952362
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002923499132096774
+    },
+    {
+      "t0": 340.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.025279685854911804,
+          "template_rms_over_sigma_max": 0.28741127252578735
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002628739976049066
+    },
+    {
+      "t0": 350.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.024475794285535812,
+          "template_rms_over_sigma_max": 0.29751837253570557
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002604386428652572
+    },
+    {
+      "t0": 360.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02192169427871704,
+          "template_rms_over_sigma_max": 0.2648264765739441
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002075668689693333
+    },
+    {
+      "t0": 370.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022618161514401436,
+          "template_rms_over_sigma_max": 0.26388925313949585
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00206553400077214
+    },
+    {
+      "t0": 380.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022638458758592606,
+          "template_rms_over_sigma_max": 0.26860326528549194
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002057936382024228
+    },
+    {
+      "t0": 390.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022615134716033936,
+          "template_rms_over_sigma_max": 0.29184824228286743
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002187482036608679
+    },
+    {
+      "t0": 400.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021838339045643806,
+          "template_rms_over_sigma_max": 0.26800018548965454
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0020404859434650646
+    },
+    {
+      "t0": 410.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022750873118638992,
+          "template_rms_over_sigma_max": 0.2953900694847107
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0023960623196732644
+    },
+    {
+      "t0": 420.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02339266985654831,
+          "template_rms_over_sigma_max": 0.2983833849430084
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002354730112042902
+    },
+    {
+      "t0": 430.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021245086565613747,
+          "template_rms_over_sigma_max": 0.29449424147605896
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0021878642560448913
+    },
+    {
+      "t0": 440.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021658070385456085,
+          "template_rms_over_sigma_max": 0.2924187481403351
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002185945403167411
+    },
+    {
+      "t0": 450.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022241739556193352,
+          "template_rms_over_sigma_max": 0.2862357795238495
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0024270970565759553
+    },
+    {
+      "t0": 460.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022541090846061707,
+          "template_rms_over_sigma_max": 0.28074538707733154
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002229300923770605
+    },
+    {
+      "t0": 470.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.020873581990599632,
+          "template_rms_over_sigma_max": 0.2470569759607315
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0020777890160382784
+    },
+    {
+      "t0": 480.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021686531603336334,
+          "template_rms_over_sigma_max": 0.23937560617923737
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002073129704312504
+    },
+    {
+      "t0": 490.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.020065991207957268,
+          "template_rms_over_sigma_max": 0.23286226391792297
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0019496486617337494
+    },
+    {
+      "t0": 500.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02195054106414318,
+          "template_rms_over_sigma_max": 0.24393893778324127
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002231900280246557
+    },
+    {
+      "t0": 510.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022633381187915802,
+          "template_rms_over_sigma_max": 0.264744371175766
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0025263540744415725
+    },
+    {
+      "t0": 520.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02406821772456169,
+          "template_rms_over_sigma_max": 0.2584947943687439
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002539030387377461
+    },
+    {
+      "t0": 530.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.025806644931435585,
+          "template_rms_over_sigma_max": 0.28239259123802185
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002601195051092575
+    },
+    {
+      "t0": 540.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.026429709047079086,
+          "template_rms_over_sigma_max": 0.2591995894908905
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0024582203491252397
+    },
+    {
+      "t0": 550.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027968648821115494,
+          "template_rms_over_sigma_max": 0.24905993044376373
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022786515268578
+    },
+    {
+      "t0": 560.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027914466336369514,
+          "template_rms_over_sigma_max": 0.24327270686626434
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022621725150907546
+    },
+    {
+      "t0": 570.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.029292413964867592,
+          "template_rms_over_sigma_max": 0.24749545753002167
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0027452730161953154
+    },
+    {
+      "t0": 580.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03328307718038559,
+          "template_rms_over_sigma_max": 0.24568861722946167
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0029803081436708956
+    },
+    {
+      "t0": 590.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03580741584300995,
+          "template_rms_over_sigma_max": 0.2693244218826294
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003734872784411536
+    },
+    {
+      "t0": 600.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03406381234526634,
+          "template_rms_over_sigma_max": 0.2587420642375946
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0033512623181350953
+    },
+    {
+      "t0": 610.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03075353428721428,
+          "template_rms_over_sigma_max": 0.25754669308662415
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00298759245376945
+    },
+    {
+      "t0": 620.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.026974957436323166,
+          "template_rms_over_sigma_max": 0.24716468155384064
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0025283571270956484
+    },
+    {
+      "t0": 630.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.024171970784664154,
+          "template_rms_over_sigma_max": 0.23921561241149902
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022905708217577647
+    },
+    {
+      "t0": 640.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02120860666036606,
+          "template_rms_over_sigma_max": 0.2488044649362564
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0019117188145800768
+    },
+    {
+      "t0": 650.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02044559270143509,
+          "template_rms_over_sigma_max": 0.2432052493095398
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0016485100028350574
+    },
+    {
+      "t0": 660.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02029787376523018,
+          "template_rms_over_sigma_max": 0.22842937707901
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0013648592276606086
+    },
+    {
+      "t0": 670.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021937880665063858,
+          "template_rms_over_sigma_max": 0.2584289312362671
+        }
+      ],
+      "frac_var_removed_per_channel": 0.001836489428808652
+    },
+    {
+      "t0": 680.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02000300958752632,
+          "template_rms_over_sigma_max": 0.2284417301416397
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0014443233243376374
+    },
+    {
+      "t0": 690.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021906305104494095,
+          "template_rms_over_sigma_max": 0.24460451304912567
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0016435758667905365
+    },
+    {
+      "t0": 700.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02191031351685524,
+          "template_rms_over_sigma_max": 0.24048857390880585
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0015439864061153052
+    },
+    {
+      "t0": 710.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021757448092103004,
+          "template_rms_over_sigma_max": 0.24297596514225006
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0015640380046400004
+    },
+    {
+      "t0": 720.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02035905048251152,
+          "template_rms_over_sigma_max": 0.23473240435123444
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0015139271877882
+    },
+    {
+      "t0": 730.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02246381901204586,
+          "template_rms_over_sigma_max": 0.2694469690322876
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0021187888061413584
+    },
+    {
+      "t0": 740.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022838544100522995,
+          "template_rms_over_sigma_max": 0.2717779874801636
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0020912718679649833
+    },
+    {
+      "t0": 750.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02352256327867508,
+          "template_rms_over_sigma_max": 0.28735649585723877
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022112139540356734
+    },
+    {
+      "t0": 760.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02259514108300209,
+          "template_rms_over_sigma_max": 0.29127272963523865
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0022123736039446618
+    },
+    {
+      "t0": 770.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02111750841140747,
+          "template_rms_over_sigma_max": 0.29718175530433655
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0023700408599757194
+    },
+    {
+      "t0": 780.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.022427009418606758,
+          "template_rms_over_sigma_max": 0.28556719422340393
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002256076092094772
+    },
+    {
+      "t0": 790.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02209639549255371,
+          "template_rms_over_sigma_max": 0.3085654377937317
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002377541214827694
+    },
+    {
+      "t0": 800.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021264269948005676,
+          "template_rms_over_sigma_max": 0.29468104243278503
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0023218302473547725
+    },
+    {
+      "t0": 810.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021143514662981033,
+          "template_rms_over_sigma_max": 0.2867114841938019
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0023025221758354864
+    },
+    {
+      "t0": 820.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02064296044409275,
+          "template_rms_over_sigma_max": 0.2690111994743347
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002434471516848835
+    },
+    {
+      "t0": 830.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.021408982574939728,
+          "template_rms_over_sigma_max": 0.28370100259780884
+        }
+      ],
+      "frac_var_removed_per_channel": 0.002862038788919441
+    },
+    {
+      "t0": 840.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.023061387240886688,
+          "template_rms_over_sigma_max": 0.2984154224395752
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0030486388113040164
+    },
+    {
+      "t0": 850.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02546507865190506,
+          "template_rms_over_sigma_max": 0.3195171058177948
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003375653338906881
+    },
+    {
+      "t0": 860.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.026456650346517563,
+          "template_rms_over_sigma_max": 0.317832350730896
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0033449827248512864
+    },
+    {
+      "t0": 870.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02719338983297348,
+          "template_rms_over_sigma_max": 0.32619526982307434
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003662609653874438
+    },
+    {
+      "t0": 880.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027684707194566727,
+          "template_rms_over_sigma_max": 0.32377877831459045
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003678768689448386
+    },
+    {
+      "t0": 890.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.029382670298218727,
+          "template_rms_over_sigma_max": 0.33251073956489563
+        }
+      ],
+      "frac_var_removed_per_channel": 0.004385601178128251
+    },
+    {
+      "t0": 900.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.0290197916328907,
+          "template_rms_over_sigma_max": 0.31427210569381714
+        }
+      ],
+      "frac_var_removed_per_channel": 0.004204472244401014
+    },
+    {
+      "t0": 910.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.033330269157886505,
+          "template_rms_over_sigma_max": 0.32126864790916443
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00480234027306603
+    },
+    {
+      "t0": 920.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.04255368933081627,
+          "template_rms_over_sigma_max": 0.3384888470172882
+        }
+      ],
+      "frac_var_removed_per_channel": 0.005559543116572807
+    },
+    {
+      "t0": 930.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.0489262118935585,
+          "template_rms_over_sigma_max": 0.34543460607528687
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0061267246695684285
+    },
+    {
+      "t0": 940.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.049841295927762985,
+          "template_rms_over_sigma_max": 0.3412955105304718
+        }
+      ],
+      "frac_var_removed_per_channel": 0.006224475094472215
+    },
+    {
+      "t0": 950.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.05037187039852142,
+          "template_rms_over_sigma_max": 0.3338076174259186
+        }
+      ],
+      "frac_var_removed_per_channel": 0.005924569101360522
+    },
+    {
+      "t0": 960.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.051208607852458954,
+          "template_rms_over_sigma_max": 0.3711993396282196
+        }
+      ],
+      "frac_var_removed_per_channel": 0.006159205641786847
+    },
+    {
+      "t0": 970.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.05935195833444595,
+          "template_rms_over_sigma_max": 0.39941921830177307
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00791470208834566
+    },
+    {
+      "t0": 980.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.06599397957324982,
+          "template_rms_over_sigma_max": 0.4167054295539856
+        }
+      ],
+      "frac_var_removed_per_channel": 0.010065729437941151
+    },
+    {
+      "t0": 990.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.07533548772335052,
+          "template_rms_over_sigma_max": 0.4198561906814575
+        }
+      ],
+      "frac_var_removed_per_channel": 0.010940484497623859
+    },
+    {
+      "t0": 1000.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.06768202036619186,
+          "template_rms_over_sigma_max": 0.4432671070098877
+        }
+      ],
+      "frac_var_removed_per_channel": 0.011373269500655203
+    },
+    {
+      "t0": 1010.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.0613480769097805,
+          "template_rms_over_sigma_max": 0.44259223341941833
+        }
+      ],
+      "frac_var_removed_per_channel": 0.010558774715205943
+    },
+    {
+      "t0": 1020.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.055315449833869934,
+          "template_rms_over_sigma_max": 0.45416051149368286
+        }
+      ],
+      "frac_var_removed_per_channel": 0.009741510826546285
+    },
+    {
+      "t0": 1030.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.05009525269269943,
+          "template_rms_over_sigma_max": 0.4462881088256836
+        }
+      ],
+      "frac_var_removed_per_channel": 0.008978960910095202
+    },
+    {
+      "t0": 1040.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.04510977119207382,
+          "template_rms_over_sigma_max": 0.42968395352363586
+        }
+      ],
+      "frac_var_removed_per_channel": 0.007788052595233075
+    },
+    {
+      "t0": 1050.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.040697358548641205,
+          "template_rms_over_sigma_max": 0.4540790021419525
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00834253732645851
+    },
+    {
+      "t0": 1060.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.037450216710567474,
+          "template_rms_over_sigma_max": 0.4217536747455597
+        }
+      ],
+      "frac_var_removed_per_channel": 0.006728668838300478
+    },
+    {
+      "t0": 1070.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.03169616684317589,
+          "template_rms_over_sigma_max": 0.3668006658554077
+        }
+      ],
+      "frac_var_removed_per_channel": 0.005606024346789695
+    },
+    {
+      "t0": 1080.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.029435105621814728,
+          "template_rms_over_sigma_max": 0.3034129738807678
+        }
+      ],
+      "frac_var_removed_per_channel": 0.004109146370762984
+    },
+    {
+      "t0": 1090.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02942005917429924,
+          "template_rms_over_sigma_max": 0.2747170031070709
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003524644316912795
+    },
+    {
+      "t0": 1100.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.029049102216959,
+          "template_rms_over_sigma_max": 0.25773492455482483
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0032562465131996676
+    },
+    {
+      "t0": 1110.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027357954531908035,
+          "template_rms_over_sigma_max": 0.2812190353870392
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0032276790165621794
+    },
+    {
+      "t0": 1120.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.027294479310512543,
+          "template_rms_over_sigma_max": 0.2759930491447449
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0031279288115316772
+    },
+    {
+      "t0": 1130.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02676219306886196,
+          "template_rms_over_sigma_max": 0.27630114555358887
+        }
+      ],
+      "frac_var_removed_per_channel": 0.003141344630271936
+    },
+    {
+      "t0": 1140.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02572944015264511,
+          "template_rms_over_sigma_max": 0.2714403569698334
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0030028793903874584
+    },
+    {
+      "t0": 1150.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.02586294524371624,
+          "template_rms_over_sigma_max": 0.28509968519210815
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0029741294553164987
+    },
+    {
+      "t0": 1160.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.025098510086536407,
+          "template_rms_over_sigma_max": 0.28402870893478394
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0024658053231765287
+    },
+    {
+      "t0": 1170.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.023865943774580956,
+          "template_rms_over_sigma_max": 0.29752516746520996
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0025168418242418333
+    },
+    {
+      "t0": 1180.0,
+      "dur": 10.0,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 9765.625,
+          "template_rms_over_sigma_median": 0.019929248839616776,
+          "template_rms_over_sigma_max": 0.2680242955684662
+        }
+      ],
+      "frac_var_removed_per_channel": 0.00193624725896957
+    },
+    {
+      "t0": 1190.0,
+      "dur": 8.999568,
+      "comps": [
+        {
+          "f": 50.0,
+          "samples_per_bin": 8788.640625,
+          "template_rms_over_sigma_median": 0.021615613251924515,
+          "template_rms_over_sigma_max": 0.27181312441825867
+        }
+      ],
+      "frac_var_removed_per_channel": 0.0019163329912679217
+    }
+  ],
+  "runtime_s": 482.9805266857147
+}
