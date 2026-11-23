@@ -1,0 +1,297 @@
+[01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ base
+(base) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ conda activate FRB
+WARNING: overwriting environment variables set in the machine
+overwriting variable PATH
+(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ [C[31Preverse-i-search)`':[Cf': python /home/ageminardi/GEM_FRB/FRB_Finder/FRB_HF_Finder.py --telescope MC --boxcar_max 8192 --gold_prob 0.7 --snr_cut 8 --fetch_model a ---gpu_id 1 --proc_path /data/PROC/GEM/NEWMAG_2/CLEAN_STEP3/ --NOT_mv_analysed --NOT_slack --dm_low 25 --dm_high 700[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[46Pr': screen -L -Logfile /jbod/codes/frb-rfi-clean/clean_step3_search_updated -S STEP3_search_v3
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@b[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_': emacs -nw /home/oper/Software/64_antenna_software/best-frbs/python/pyfrbs/processing/best_frb_post_processor.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs': emacs -nw /home/oper/Software/64_antenna_software/best-frbs/python/pyfrbs/digital_backend/bestfrb_scheduler.py[C[8@failed reverse-i-search)`frb_su[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ emacs -nw /home/oper/Software/64_antenna_software/best-frbs/python/pyfrbs/digital_backend/bestfrb_scheduler..py[A(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ cd /jbod/codes/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[31Preverse-i-search)`':[Cr': emacs -nw /home/oper/Software/64_antenna_software/best-frbs/python/pyfrbs/digital_backend/bestfrb_scheduler.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf': rm -rf logger_injections.txt [K[C[8@failed reverse-i-search)`rfi[C[C[C[C[C[C[C[1@_[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[1@u[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ rm -rf logger_injections.txt screen -dmS SIMULATE_ALL bash -c './run_injection.sh > /jbod/codes/injections/logger_injections.txt 2>&1'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr[K[K[K[K[K[K[K[K[K[Kpython3 /jbod/codes/frb-rfi-clean/tools/rfi_survey.py /data/PROC/GEM/NEWMAG_2/CLEAN_STEP3/ag278m04_EP260628CC_SDmc/ag278m_mc_no0004_processed.fil --out /jbod/codes/frb-rfi-clean/survey_no0004_step3_updated/ --spectrum[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@v[1@4
+/data/PROC/GEM/NEWMAG_2/CLEAN_STEP3/ag278m04_EP260628C_SDmc/ag278m_mc_no0004_processed.fil: 256 canali, tsamp 16 us, 1199.0 s, banda 1382.25-1446.25 MHz, 8 bit
+  blocchi da 4.19 s (286), boxcar 1..2048 campioni (0.016..32.8 ms), 16 sottobande
+  blocco 1/286: t=     0.0 s, eventi     18
+  blocco 2/286: t=     4.2 s, eventi      9
+  blocco 3/286: t=     8.4 s, eventi     16
+  blocco 4/286: t=    12.6 s, eventi     27
+  blocco 5/286: t=    16.8 s, eventi      9
+  blocco 6/286: t=    21.0 s, eventi     18
+  blocco 7/286: t=    25.2 s, eventi     20
+  blocco 8/286: t=    29.4 s, eventi     15
+  blocco 9/286: t=    33.6 s, eventi     23
+  blocco 10/286: t=    37.7 s, eventi     18
+  blocco 11/286: t=    41.9 s, eventi     25
+  blocco 12/286: t=    46.1 s, eventi     42
+  blocco 13/286: t=    50.3 s, eventi     20
+  blocco 14/286: t=    54.5 s, eventi     23
+  blocco 15/286: t=    58.7 s, eventi     24
+  blocco 16/286: t=    62.9 s, eventi     48
+  blocco 17/286: t=    67.1 s, eventi     18
+  blocco 18/286: t=    71.3 s, eventi     18
+  blocco 19/286: t=    75.5 s, eventi     16
+  blocco 20/286: t=    79.7 s, eventi      8
+  blocco 21/286: t=    83.9 s, eventi     20
+  blocco 22/286: t=    88.1 s, eventi     10
+  blocco 23/286: t=    92.3 s, eventi      7
+  blocco 24/286: t=    96.5 s, eventi     18
+  blocco 25/286: t=   100.7 s, eventi     14
+  blocco 26/286: t=   104.9 s, eventi     17
+  blocco 27/286: t=   109.1 s, eventi      9
+  blocco 28/286: t=   113.2 s, eventi     24
+  blocco 29/286: t=   117.4 s, eventi     15
+  blocco 30/286: t=   121.6 s, eventi     10
+  blocco 31/286: t=   125.8 s, eventi     38
+  blocco 32/286: t=   130.0 s, eventi     18
+  blocco 33/286: t=   134.2 s, eventi     25
+  blocco 34/286: t=   138.4 s, eventi     12
+  blocco 35/286: t=   142.6 s, eventi     41
+  blocco 36/286: t=   146.8 s, eventi     17
+  blocco 37/286: t=   151.0 s, eventi     24
+  blocco 38/286: t=   155.2 s, eventi     74
+  blocco 39/286: t=   159.4 s, eventi     25
+  blocco 40/286: t=   163.6 s, eventi     48
+  blocco 41/286: t=   167.8 s, eventi     57
+  blocco 42/286: t=   172.0 s, eventi     26
+  blocco 43/286: t=   176.2 s, eventi     28
+  blocco 44/286: t=   180.4 s, eventi     23
+  blocco 45/286: t=   184.5 s, eventi     34
+  blocco 46/286: t=   188.7 s, eventi     14
+  blocco 47/286: t=   192.9 s, eventi     24
+  blocco 48/286: t=   197.1 s, eventi    102
+  blocco 49/286: t=   201.3 s, eventi     23
+  blocco 50/286: t=   205.5 s, eventi     20
+  blocco 51/286: t=   209.7 s, eventi     14
+  blocco 52/286: t=   213.9 s, eventi     20
+  blocco 53/286: t=   218.1 s, eventi     15
+  blocco 54/286: t=   222.3 s, eventi     34
+  blocco 55/286: t=   226.5 s, eventi     15
+  blocco 56/286: t=   230.7 s, eventi     29
+  blocco 57/286: t=   234.9 s, eventi     24
+  blocco 58/286: t=   239.1 s, eventi     33
+  blocco 59/286: t=   243.3 s, eventi     32
+  blocco 60/286: t=   247.5 s, eventi     50
+  blocco 61/286: t=   251.7 s, eventi     23
+  blocco 62/286: t=   255.9 s, eventi     46
+  blocco 63/286: t=   260.0 s, eventi     77
+  blocco 64/286: t=   264.2 s, eventi     23
+  blocco 65/286: t=   268.4 s, eventi     29
+  blocco 66/286: t=   272.6 s, eventi     66
+  blocco 67/286: t=   276.8 s, eventi     14
+  blocco 68/286: t=   281.0 s, eventi     26
+  blocco 69/286: t=   285.2 s, eventi     47
+  blocco 70/286: t=   289.4 s, eventi     87
+  blocco 71/286: t=   293.6 s, eventi     32
+  blocco 72/286: t=   297.8 s, eventi     21
+  blocco 73/286: t=   302.0 s, eventi     26
+  blocco 74/286: t=   306.2 s, eventi     24
+  blocco 75/286: t=   310.4 s, eventi     69
+  blocco 76/286: t=   314.6 s, eventi     14
+  blocco 77/286: t=   318.8 s, eventi     17
+  blocco 78/286: t=   323.0 s, eventi     40
+  blocco 79/286: t=   327.2 s, eventi     23
+  blocco 80/286: t=   331.4 s, eventi     14
+  blocco 81/286: t=   335.5 s, eventi     21
+  blocco 82/286: t=   339.7 s, eventi      7
+  blocco 83/286: t=   343.9 s, eventi     19
+  blocco 84/286: t=   348.1 s, eventi      9
+  blocco 85/286: t=   352.3 s, eventi     19
+  blocco 86/286: t=   356.5 s, eventi      5
+  blocco 87/286: t=   360.7 s, eventi     18
+  blocco 88/286: t=   364.9 s, eventi     18
+  blocco 89/286: t=   369.1 s, eventi     13
+  blocco 90/286: t=   373.3 s, eventi     28
+  blocco 91/286: t=   377.5 s, eventi      3
+  blocco 92/286: t=   381.7 s, eventi     12
+  blocco 93/286: t=   385.9 s, eventi      7
+  blocco 94/286: t=   390.1 s, eventi     16
+  blocco 95/286: t=   394.3 s, eventi     29
+  blocco 96/286: t=   398.5 s, eventi     15
+  blocco 97/286: t=   402.7 s, eventi     27
+  blocco 98/286: t=   406.8 s, eventi     12
+  blocco 99/286: t=   411.0 s, eventi      8
+  blocco 100/286: t=   415.2 s, eventi     12
+  blocco 101/286: t=   419.4 s, eventi     15
+  blocco 102/286: t=   423.6 s, eventi     31
+  blocco 103/286: t=   427.8 s, eventi      7
+  blocco 104/286: t=   432.0 s, eventi     18
+  blocco 105/286: t=   436.2 s, eventi      5
+  blocco 106/286: t=   440.4 s, eventi     28
+  blocco 107/286: t=   444.6 s, eventi     28
+  blocco 108/286: t=   448.8 s, eventi     18
+  blocco 109/286: t=   453.0 s, eventi     18
+  blocco 110/286: t=   457.2 s, eventi     16
+  blocco 111/286: t=   461.4 s, eventi     16
+  blocco 112/286: t=   465.6 s, eventi     47
+  blocco 113/286: t=   469.8 s, eventi     15
+  blocco 114/286: t=   474.0 s, eventi     17
+  blocco 115/286: t=   478.2 s, eventi     23
+  blocco 116/286: t=   482.3 s, eventi     35
+  blocco 117/286: t=   486.5 s, eventi     15
+  blocco 118/286: t=   490.7 s, eventi     27
+  blocco 119/286: t=   494.9 s, eventi     31
+  blocco 120/286: t=   499.1 s, eventi      5
+  blocco 121/286: t=   503.3 s, eventi     19
+  blocco 122/286: t=   507.5 s, eventi      3
+  blocco 123/286: t=   511.7 s, eventi     15
+  blocco 124/286: t=   515.9 s, eventi     12
+  blocco 125/286: t=   520.1 s, eventi     16
+  blocco 126/286: t=   524.3 s, eventi     27
+  blocco 127/286: t=   528.5 s, eventi     10
+  blocco 128/286: t=   532.7 s, eventi     37
+  blocco 129/286: t=   536.9 s, eventi     29
+  blocco 130/286: t=   541.1 s, eventi     13
+  blocco 131/286: t=   545.3 s, eventi     26
+  blocco 132/286: t=   549.5 s, eventi     34
+  blocco 133/286: t=   553.6 s, eventi     37
+  blocco 134/286: t=   557.8 s, eventi     23
+  blocco 135/286: t=   562.0 s, eventi     14
+  blocco 136/286: t=   566.2 s, eventi     73
+  blocco 137/286: t=   570.4 s, eventi     42
+  blocco 138/286: t=   574.6 s, eventi     24
+  blocco 139/286: t=   578.8 s, eventi      8
+  blocco 140/286: t=   583.0 s, eventi     35
+  blocco 141/286: t=   587.2 s, eventi     48
+  blocco 142/286: t=   591.4 s, eventi     24
+  blocco 143/286: t=   595.6 s, eventi     45
+  blocco 144/286: t=   599.8 s, eventi     27
+  blocco 145/286: t=   604.0 s, eventi     41
+  blocco 146/286: t=   608.2 s, eventi     42
+  blocco 147/286: t=   612.4 s, eventi     26
+  blocco 148/286: t=   616.6 s, eventi    113
+  blocco 149/286: t=   620.8 s, eventi     15
+  blocco 150/286: t=   625.0 s, eventi     36
+  blocco 151/286: t=   629.1 s, eventi     29
+  blocco 152/286: t=   633.3 s, eventi     32
+  blocco 153/286: t=   637.5 s, eventi      3
+  blocco 154/286: t=   641.7 s, eventi     41
+  blocco 155/286: t=   645.9 s, eventi     25
+  blocco 156/286: t=   650.1 s, eventi     23
+  blocco 157/286: t=   654.3 s, eventi     34
+  blocco 158/286: t=   658.5 s, eventi     13
+  blocco 159/286: t=   662.7 s, eventi     22
+  blocco 160/286: t=   666.9 s, eventi     14
+  blocco 161/286: t=   671.1 s, eventi     16
+  blocco 162/286: t=   675.3 s, eventi     25
+  blocco 163/286: t=   679.5 s, eventi     11
+  blocco 164/286: t=   683.7 s, eventi     29
+  blocco 165/286: t=   687.9 s, eventi      7
+  blocco 166/286: t=   692.1 s, eventi     36
+  blocco 167/286: t=   696.3 s, eventi      7
+  blocco 168/286: t=   700.4 s, eventi      8
+  blocco 169/286: t=   704.6 s, eventi     31
+  blocco 170/286: t=   708.8 s, eventi     23
+  blocco 171/286: t=   713.0 s, eventi     20
+  blocco 172/286: t=   717.2 s, eventi     17
+  blocco 173/286: t=   721.4 s, eventi     20
+  blocco 174/286: t=   725.6 s, eventi     19
+  blocco 175/286: t=   729.8 s, eventi     34
+  blocco 176/286: t=   734.0 s, eventi     19
+  blocco 177/286: t=   738.2 s, eventi      8
+  blocco 178/286: t=   742.4 s, eventi     48
+  blocco 179/286: t=   746.6 s, eventi     14
+  blocco 180/286: t=   750.8 s, eventi     20
+  blocco 181/286: t=   755.0 s, eventi     35
+  blocco 182/286: t=   759.2 s, eventi      7
+  blocco 183/286: t=   763.4 s, eventi     28
+  blocco 184/286: t=   767.6 s, eventi     12
+  blocco 185/286: t=   771.8 s, eventi     16
+  blocco 186/286: t=   775.9 s, eventi     58
+  blocco 187/286: t=   780.1 s, eventi     12
+  blocco 188/286: t=   784.3 s, eventi     22
+  blocco 189/286: t=   788.5 s, eventi     16
+  blocco 190/286: t=   792.7 s, eventi     97
+  blocco 191/286: t=   796.9 s, eventi     14
+  blocco 192/286: t=   801.1 s, eventi     28
+  blocco 193/286: t=   805.3 s, eventi     40
+  blocco 194/286: t=   809.5 s, eventi     12
+  blocco 195/286: t=   813.7 s, eventi     24
+  blocco 196/286: t=   817.9 s, eventi     12
+  blocco 197/286: t=   822.1 s, eventi     28
+  blocco 198/286: t=   826.3 s, eventi     28
+  blocco 199/286: t=   830.5 s, eventi      8
+  blocco 200/286: t=   834.7 s, eventi     23
+  blocco 201/286: t=   838.9 s, eventi     41
+  blocco 202/286: t=   843.1 s, eventi     18
+  blocco 203/286: t=   847.2 s, eventi     19
+  blocco 204/286: t=   851.4 s, eventi     13
+  blocco 205/286: t=   855.6 s, eventi     15
+  blocco 206/286: t=   859.8 s, eventi     15
+  blocco 207/286: t=   864.0 s, eventi     29
+  blocco 208/286: t=   868.2 s, eventi     96
+  blocco 209/286: t=   872.4 s, eventi     25
+  blocco 210/286: t=   876.6 s, eventi      6
+  blocco 211/286: t=   880.8 s, eventi     14
+  blocco 212/286: t=   885.0 s, eventi     33
+  blocco 213/286: t=   889.2 s, eventi     16
+  blocco 214/286: t=   893.4 s, eventi     30
+  blocco 215/286: t=   897.6 s, eventi     33
+  blocco 216/286: t=   901.8 s, eventi     17
+  blocco 217/286: t=   906.0 s, eventi      8
+  blocco 218/286: t=   910.2 s, eventi     24
+  blocco 219/286: t=   914.4 s, eventi     22
+  blocco 220/286: t=   918.6 s, eventi     16
+  blocco 221/286: t=   922.7 s, eventi     32
+  blocco 222/286: t=   926.9 s, eventi     15
+  blocco 223/286: t=   931.1 s, eventi     28
+  blocco 224/286: t=   935.3 s, eventi     37
+  blocco 225/286: t=   939.5 s, eventi     42
+  blocco 226/286: t=   943.7 s, eventi     26
+  blocco 227/286: t=   947.9 s, eventi     34
+  blocco 228/286: t=   952.1 s, eventi     35
+  blocco 229/286: t=   956.3 s, eventi     31
+  blocco 230/286: t=   960.5 s, eventi     31
+  blocco 231/286: t=   964.7 s, eventi     35
+  blocco 232/286: t=   968.9 s, eventi     35
+  blocco 233/286: t=   973.1 s, eventi     68
+  blocco 234/286: t=   977.3 s, eventi     80
+  blocco 235/286: t=   981.5 s, eventi    107
+  blocco 236/286: t=   985.7 s, eventi    131
+  blocco 237/286: t=   989.9 s, eventi     87
+  blocco 238/286: t=   994.1 s, eventi    142
+  blocco 239/286: t=   998.2 s, eventi    117
+  blocco 240/286: t=  1002.4 s, eventi    132
+  blocco 241/286: t=  1006.6 s, eventi     70
+  blocco 242/286: t=  1010.8 s, eventi    126
+  blocco 243/286: t=  1015.0 s, eventi    136
+  blocco 244/286: t=  1019.2 s, eventi    117
+  blocco 245/286: t=  1023.4 s, eventi     69
+  blocco 246/286: t=  1027.6 s, eventi     60
+  blocco 247/286: t=  1031.8 s, eventi    125
+  blocco 248/286: t=  1036.0 s, eventi     78
+  blocco 249/286: t=  1040.2 s, eventi     71
+  blocco 250/286: t=  1044.4 s, eventi    113
+  blocco 251/286: t=  1048.6 s, eventi     24
+  blocco 252/286: t=  1052.8 s, eventi     97
+  blocco 253/286: t=  1057.0 s, eventi     36
+  blocco 254/286: t=  1061.2 s, eventi     72
+  blocco 255/286: t=  1065.4 s, eventi     81
+  blocco 256/286: t=  1069.5 s, eventi     36
+  blocco 257/286: t=  1073.7 s, eventi     33
+  blocco 258/286: t=  1077.9 s, eventi     44
+  blocco 259/286: t=  1082.1 s, eventi     22
+  blocco 260/286: t=  1086.3 s, eventi     18
+  blocco 261/286: t=  1090.5 s, eventi     40
+  blocco 262/286: t=  1094.7 s, eventi     21
+  blocco 263/286: t=  1098.9 s, eventi     46
+  blocco 264/286: t=  1103.1 s, eventi     26
+  blocco 265/286: t=  1107.3 s, eventi     12
+  blocco 266/286: t=  1111.5 s, eventi     38
+  blocco 267/286: t=  1115.7 s, eventi     12
+  blocco 268/286: t=  1119.9 s, eventi     32
+  blocco 269/286: t=  1124.1 s, eventi     49
+  blocco 270/286: t=  1128.3 s, eventi     13
+  blocco 271/286: t=  1132.5 s, eventi     59
+  blocco 272/286: t=  1136.7 s, eventi     26
+  blocco 273/286: t=  1140.9 s, eventi     19
+  blocco 274/286: t=  1145.0 s, eventi     34
+  blocco 275/286: t=  1149.2 s, eventi     15
+  blocco 276/286: t=  1153.4 s, eventi     19
+  blocco 277/286: t=  1157.6 s, eventi     34
+  blocco 278/286: t=  1161.8 s, eventi     45
+  blocco 279/286: t=  1166.0 s, eventi     39
+  blocco 280/286: t=  1170.2 s, eventi     41
+  blocco 281/286: t=  1174.4 s, eventi     21
+  blocco 282/286: t=  1178.6 s, eventi     13
+  blocco 283/286: t=  1182.8 s, eventi     23
+  blocco 284/286: t=  1187.0 s, eventi      6
+  blocco 285/286: t=  1191.2 s, eventi     10
+  blocco 286/286: t=  1195.4 s, eventi     13
+Fatto in 605 s: 8880 eventi, 10 canali sospetti, prodotti in /jbod/codes/frb-rfi-clean/survey_no0004_step3_v4
+(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ [K(FRB) [01;32mdpelliciari@med-frb[00m:[01;34m/jbod/codes/frb-rfi-clean[00m$ exit
