@@ -1,0 +1,17 @@
+$ /opt/anaconda3/envs/FRB/bin/python3 /jbod/codes/frb-rfi-clean/tools/rfi_impulses.py /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step2.fil /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step3.fil
+/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step2.fil: 256 canali (236 attivi), tsamp 16 us, 179.0 s, 8 bit
+  soglie [8.0, 6.0], boxcar 1..2048 campioni, 16 sottobande, veto DM 15-1000
+  t=     4.0 s (  2.2%): eventi 191, rimossi 191, protetti 0  (7 s, veto 2 s)
+  t=    16.0 s (  8.9%): eventi 924, rimossi 916, protetti 8  (41 s, veto 15 s)
+  t=    32.0 s ( 17.9%): eventi 1679, rimossi 1670, protetti 9  (74 s, veto 27 s)
+  t=    48.0 s ( 26.8%): eventi 2688, rimossi 2678, protetti 10  (118 s, veto 43 s)
+  t=    56.0 s ( 31.3%): eventi 3588, rimossi 3577, protetti 11  (153 s, veto 56 s)
+  t=    68.0 s ( 38.0%): eventi 4813, rimossi 4789, protetti 24  (200 s, veto 75 s)
+  t=    76.0 s ( 42.5%): eventi 5640, rimossi 5616, protetti 24  (232 s, veto 87 s)
+  t=    88.0 s ( 49.2%): eventi 6404, rimossi 6379, protetti 25  (265 s, veto 99 s)
+  t=   108.0 s ( 60.3%): eventi 7703, rimossi 7658, protetti 45  (302 s, veto 106 s)
+  t=   128.0 s ( 71.5%): eventi 8843, rimossi 8796, protetti 47  (337 s, veto 112 s)
+  t=   156.0 s ( 87.2%): eventi 9705, rimossi 9651, protetti 54  (371 s, veto 119 s)
+  t=   179.0 s (100.0%): eventi 10381, rimossi 10325, protetti 56  (398 s, veto 124 s)
+Fatto in 398 s. Eventi 10381: rimossi 10325 (di cui 5823 per la scorciatoia 'stretti'), protetti 56. Dati sostituiti: 3.218%
+Riassunto: /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step3.fil.impulses.json

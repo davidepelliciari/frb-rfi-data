@@ -1,0 +1,28 @@
+$ /opt/anaconda3/envs/FRB/bin/python3 /jbod/codes/frb-rfi-clean/tools/rfi_periodic.py /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step1.fil /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step2.fil
+/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step1.fil: 256 canali, tsamp 16 us, 179.0 s, 8 bit
+Analisi dello spettro e delle famiglie di righe
+  analisi: 179.0 s, spettro fino a 31250 Hz (risoluzione 0.238 Hz), 10 s
+  famiglia f0 = 50.000004 Hz (P = 20.0000 ms), 21 righe, DM equivalente -0.0: da sottrarre (circa 7.25% della varianza a DM 0)
+Sottrazione (iterazione 1): 1 famiglie
+  sottrazione: t=     0.0 s, varianza per canale rimossa 0.248%  (5 s)
+  sottrazione: t=    10.0 s, varianza per canale rimossa 0.259%  (10 s)
+  sottrazione: t=    20.0 s, varianza per canale rimossa 0.271%  (15 s)
+  sottrazione: t=    30.0 s, varianza per canale rimossa 0.269%  (20 s)
+  sottrazione: t=    40.0 s, varianza per canale rimossa 0.264%  (24 s)
+  sottrazione: t=    50.0 s, varianza per canale rimossa 0.263%  (29 s)
+  sottrazione: t=    60.0 s, varianza per canale rimossa 0.253%  (34 s)
+  sottrazione: t=    70.0 s, varianza per canale rimossa 0.240%  (39 s)
+  sottrazione: t=    80.0 s, varianza per canale rimossa 0.266%  (44 s)
+  sottrazione: t=    90.0 s, varianza per canale rimossa 0.288%  (49 s)
+  sottrazione: t=   100.0 s, varianza per canale rimossa 0.283%  (54 s)
+  sottrazione: t=   110.0 s, varianza per canale rimossa 0.292%  (58 s)
+  sottrazione: t=   120.0 s, varianza per canale rimossa 0.272%  (63 s)
+  sottrazione: t=   130.0 s, varianza per canale rimossa 0.290%  (68 s)
+  sottrazione: t=   140.0 s, varianza per canale rimossa 0.275%  (73 s)
+  sottrazione: t=   150.0 s, varianza per canale rimossa 0.262%  (78 s)
+  sottrazione: t=   160.0 s, varianza per canale rimossa 0.269%  (83 s)
+  sottrazione: t=   170.0 s, varianza per canale rimossa 0.303%  (87 s)
+  analisi: 179.0 s, spettro fino a 31250 Hz (risoluzione 0.238 Hz), 9 s
+Verifica: spettro dell'output
+Fatto in 119 s. Righe oltre 8.0x il continuo: 21 prima, 0 dopo.
+Riassunto: /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step2.fil.periodic.json; grafico: /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step2.fil.periodic_spectrum.png

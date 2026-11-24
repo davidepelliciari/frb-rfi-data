@@ -1,0 +1,10 @@
+$ /opt/anaconda3/envs/FRB/bin/python3 /jbod/codes/frb-rfi-clean/tools/rfi_commonmode.py /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step3.fil /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil
+/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step3.fil: 256 canali (236 attivi), tsamp 16 us, 179.0 s; modo comune: regress
+  t=     4.0 s (  2.2%): eccesso di rumore a DM 0 (scala 1 ms) 6.05 -> 0.27  (4 s)
+  t=    40.0 s ( 22.3%): eccesso di rumore a DM 0 (scala 1 ms) 5.34 -> 0.27  (36 s)
+  t=    76.0 s ( 42.5%): eccesso di rumore a DM 0 (scala 1 ms) 6.15 -> 0.06  (67 s)
+  t=   112.0 s ( 62.6%): eccesso di rumore a DM 0 (scala 1 ms) 4.48 -> 0.23  (99 s)
+  t=   148.0 s ( 82.7%): eccesso di rumore a DM 0 (scala 1 ms) 5.24 -> 0.23  (130 s)
+  t=   179.0 s (100.0%): eccesso di rumore a DM 0 (scala 1 ms) 4.28 -> 0.27  (157 s)
+Fatto in 157 s. Eccesso di rumore a DM 0 (mediana sui blocchi): 4.74 -> 0.27; differenza alta-bassa 2.52 -> 1.97; guadagni mediana 0.71 (p10-p90 0.46-1.88)
+Riassunto: /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.commonmode.json

@@ -1,0 +1,27 @@
+{
+  "input": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/tmp/ag293m_mc_no0001_processed.step3.fil",
+  "output": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil",
+  "duration_s": 178.999312,
+  "config": {
+    "block": 4.0,
+    "mode": "regress",
+    "fit_res": 0.001,
+    "gain_min": -1.0,
+    "gain_max": 3.0,
+    "dither": true,
+    "seed": 0
+  },
+  "n_live_channels": 236,
+  "n_blocks": 45,
+  "zerodm_excess_before_median": 4.737803974972065,
+  "zerodm_excess_after_median": 0.2654047138765379,
+  "split_excess_before_median": 2.5202892419385208,
+  "split_excess_after_median": 1.9743464595662268,
+  "gain_median": 0.7108540534973145,
+  "gain_p10_p90": [
+    0.46388069689273836,
+    1.8842609882354737
+  ],
+  "runtime_s": 157.1654658317566,
+  "note": "zerodm_excess: rumore della serie a banda intera a DM 0 (media su fit_res) / atteso per canali indipendenti (1 = nessuna correlazione; dopo la sottrazione e' ~0 per costruzione). split_excess: lo stesso per la differenza meta' alta - meta' bassa della banda, che la sottrazione non azzera: misura la correlazione residua non descritta da un solo modo comune"
+}

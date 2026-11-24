@@ -1,0 +1,139 @@
+{
+  "command": "/opt/anaconda3/envs/FRB/bin/python3 /jbod/codes/frb-rfi-clean/tools/rfi_pipeline.py /data/PROC/GEM/NEWMAG_2/filterbanks/ag293m_mc_no0001_processed.fil /data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ --force --keep",
+  "started": "2026-11-24T09:54:51",
+  "code_version": "8414b7d",
+  "input": "/data/PROC/GEM/NEWMAG_2/filterbanks/ag293m_mc_no0001_processed.fil",
+  "output": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil",
+  "steps": {
+    "1": {
+      "tool": "rfi_clean.py",
+      "args": "",
+      "runtime_s": 105.4,
+      "log": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/step1.log",
+      "summary": {
+        "masked_channels": {
+          "0": [
+            "kurtosis z=+27.2",
+            "outlier 0.28%"
+          ],
+          "85": [
+            "kurtosis z=+45.4",
+            "outlier 0.33%"
+          ],
+          "140": [
+            "kurtosis z=+6.2"
+          ],
+          "141": [
+            "kurtosis z=+14.8"
+          ],
+          "142": [
+            "kurtosis z=+26.3",
+            "outlier 0.13%"
+          ],
+          "143": [
+            "kurtosis z=+37.1",
+            "outlier 0.32%"
+          ],
+          "144": [
+            "kurtosis z=+39.1",
+            "outlier 0.38%"
+          ],
+          "145": [
+            "kurtosis z=+30.6",
+            "outlier 0.26%"
+          ],
+          "185": [
+            "kurtosis z=+10.5"
+          ],
+          "200": [
+            "kurtosis z=+9.0"
+          ],
+          "201": [
+            "kurtosis z=+20.5",
+            "outlier 0.13%"
+          ],
+          "202": [
+            "kurtosis z=+23.6",
+            "outlier 0.17%"
+          ],
+          "203": [
+            "kurtosis z=+21.5",
+            "outlier 0.15%"
+          ],
+          "204": [
+            "kurtosis z=+15.4"
+          ],
+          "205": [
+            "kurtosis z=+6.5"
+          ],
+          "240": [
+            "kurtosis z=+14.3",
+            "outlier 0.12%"
+          ],
+          "241": [
+            "kurtosis z=+5.0"
+          ],
+          "242": [
+            "kurtosis z=+14.6"
+          ],
+          "243": [
+            "kurtosis z=+11.3"
+          ],
+          "244": [
+            "kurtosis z=+8.5"
+          ]
+        },
+        "n_changepoints": 65,
+        "frac_cells_replaced": 0.0009499525023748813,
+        "runtime_s": 105.07439064979553
+      }
+    },
+    "2": {
+      "tool": "rfi_periodic.py",
+      "args": "",
+      "runtime_s": 118.9,
+      "log": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/step2.log",
+      "summary": {
+        "n_lines_before": 21,
+        "n_lines_after": 0,
+        "runtime_s": 118.57592272758484,
+        "families": [
+          {
+            "f0_hz": 50.000003682901024,
+            "n_lines": 21,
+            "protected": false
+          }
+        ]
+      }
+    },
+    "3": {
+      "tool": "rfi_impulses.py",
+      "args": "",
+      "runtime_s": 398.1,
+      "log": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/step3.log",
+      "summary": {
+        "events": 10381,
+        "removed": 10325,
+        "protected": 56,
+        "frac_data_replaced": 0.032175491531820116,
+        "runtime_s": 397.86370611190796
+      }
+    },
+    "4": {
+      "tool": "rfi_commonmode.py",
+      "args": "",
+      "runtime_s": 157.4,
+      "log": "/data/PROC/GEM/NEWMAG_2/CLEAN_PULSAR/obs/ag293m_mc_no0001_processed.fil.pipeline/step4.log",
+      "summary": {
+        "zerodm_excess_before_median": 4.737803974972065,
+        "zerodm_excess_after_median": 0.2654047138765379,
+        "split_excess_before_median": 2.5202892419385208,
+        "split_excess_after_median": 1.9743464595662268,
+        "gain_median": 0.7108540534973145,
+        "runtime_s": 157.1654658317566
+      }
+    }
+  },
+  "status": "completato",
+  "runtime_s": 779.9
+}
